@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Monthly Price"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/money">
+
+        <EditText
+            android:id="@+id/priceinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Property's Name"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/icons8">
+
+        <EditText
+            android:id="@+id/rentalnameinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Address"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/address">
+
+        <EditText
+            android:id="@+id/addressinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/buttonsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="69dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btn_submit"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/texterror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/typeinput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:spinnerMode="dropdown" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/town" />
+
+    <Spinner
+        android:id="@+id/bedinput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="10dp"
+        android:spinnerMode="dropdown" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="320dp"
+        app:srcCompat="@drawable/bed" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Reporter"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/reporter">
+
+        <EditText
+            android:id="@+id/reporterinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/furinput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="10dp"
+        android:spinnerMode="dropdown" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/furniture" />
+
+</RelativeLayout>

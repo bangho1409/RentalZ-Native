@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">rental</string>
+    <string name="todo">TODO</string>
+    <string name="notification_01"><i>I\'m</i> <b>good</b>.</string>
+    <string name="notification_02">Button \"Login\" is <u>OK</u>.</string>
+    <string name="notification_03">If (n &gt; 3 &amp;&amp; n &lt; 5) then &#8230;</string>
+    <string name="btn_submit">Submit</string>
+    <string name="type">
+        <item>Bungalow</item>
+        <item>Detached House</item>
+        <item>Semi-Detached House</item>
+        <item>Townhouse</item>
+    </string>
+</resources>
